@@ -15,7 +15,7 @@ namespace AspNetCoreOnDocker
         {
             Console.WriteLine("*********************************");
             Console.WriteLine("Test Asp.Net Core App On Docker !!!");
-            Console.WriteLine("With CI/CD pipeline !!!");
+            Console.WriteLine("With CI/CD pipeline and auto trigger !!!");
             Console.WriteLine("*********************************");
             CreateHostBuilder(args).Build().Run();
         }
